@@ -116,6 +116,7 @@
 //   3. Metadata text size: 1024
 //   4. Json object overhead (child names, formatting characters, NLs): 128
 // Manually calculate this and round to 4-byte boundary
+// #define JSON_MAX_IMAGE_TEXT_LEN (1024 * 53)
 #define JSON_MAX_IMAGE_TEXT_LEN (1024 * 53)
 
 // Maximum firmware update chunk request size
